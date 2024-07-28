@@ -38,7 +38,7 @@ namespace SortedListApp
             
             foreach (string key in icollection)
             {
-                dataName += sortedList[key].ToString()+"\n";
+                dataName += $"{key} : {sortedList[key]}\n";
             }
            
                MessageBox.Show(dataName);
